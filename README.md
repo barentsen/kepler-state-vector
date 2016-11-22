@@ -13,17 +13,17 @@ Output:
 Input time = 2016 01 12.94106
 
 # Position of Kepler in the geocentric J2000 frame
-X = 0.8071066542355017 AU
-Y = -0.04303078307468914 AU
-Z = -0.026958957670645378 AU
+X = 0.80710665 AU
+Y = -0.04303078 AU
+Z = -0.02695896 AU
 
 # Velocity of Kepler in the geocentric J2000 frame
-dX = 6.801563010842106e-09 AU/s
-dY = 1.5067559509333052e-07 AU/s
-dZ = 6.52888679400489e-08 AU/s
+dX = 0.00000001 AU/s
+dY = 0.00000015 AU/s
+dZ = 0.00000007 AU/s
 
 # Orbital speed [sqrt(dX^2 + dY^2 + dZ^2)]
-Speed = 1.6435337688350942e-07 AU/s
+Speed = 0.00000016 AU/s
 ```
 
 ### Installation
