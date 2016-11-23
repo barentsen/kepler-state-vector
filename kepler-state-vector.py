@@ -13,11 +13,11 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         input_utc = sys.argv[1]
     else:
-        input_utc = "2016 01 12.94106"  # default for testing
+        input_utc = '2016-01-12T22:35:07.584'  # default for testing
     # Load the necessary data files
     sp.furnsh(KERNELS)
-    # Convert UTC to ephemeris time
-    epoch = sp.utc2et(input_utc)
+    # Convert input time to ephemeris time
+    epoch = sp.str2et(input_utc)
     # State (position and velocity in cartesian coordinates)
     # of Kepler (-227) as seen from EARTH in the J2000 coordinate frame.
     state, lt, = sp.spkezr("-227", epoch, "J2000", "NONE", "EARTH")
