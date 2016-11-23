@@ -5,20 +5,20 @@ A little tool intended to demonstrate the use of SPICE, through the [SpiceyPy Py
 
 ### Example use
 ```
-$ python kepler-state-vector.py "2016 01 12.94106"
+$ python kepler-state-vector.py "2016-01-12T22:35:07.584"
 ```
 
 Output:
 ```
-Input time = 2016 01 12.94106
+Input time = 2016-01-12T22:35:07.584
 
 # Position of Kepler in the geocentric J2000 frame
-X = 0.80710665 AU
-Y = -0.04303078 AU
-Z = -0.02695896 AU
+X = 0.80754723 AU
+Y = -0.03077504 AU
+Z = -0.02164734 AU
 
 # Velocity of Kepler in the geocentric J2000 frame
-dX = 0.00000001 AU/s
+dX = 0.00000000 AU/s
 dY = 0.00000015 AU/s
 dZ = 0.00000007 AU/s
 
